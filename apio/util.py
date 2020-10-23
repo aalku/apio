@@ -286,7 +286,7 @@ def resolve_packages(packages, installed_packages, spec_packages):
         'verilator': get_package_dir('toolchain-verilator'),
         'gtkwave': get_package_dir('tool-gtkwave'),
         'fujprog': get_package_dir('toolchain-fujprog'),
-        'icesprog': get_package_dir('icesprog')
+        'icesprog': get_package_dir('toolchain-icesprog')
     }
 
     bin_dir = {

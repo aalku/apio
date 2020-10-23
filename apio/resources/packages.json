@@ -161,20 +161,20 @@
   },
   "icesprog" : {
     "repository": {
-      "name": "apio-toolchain-iCESugar",
+      "name": "toolchain-icesprog",
       "organization": "aalku"
     },
     "release": {
       "tag_name": "v%V",
-      "compressed_name": "icesprog-%P-%V",
+      "compressed_name": "toolchain-icesprog-%P-%V",
       "uncompressed_name": "",
-      "package_name": "icesprog",
-      "extension": "zip",
+      "package_name": "toolchain-icesprog",
+      "extension": "tar.gz",
       "available_platforms": [
-        "windows_amd64"
+        "windows_amd64", "windows_x86", "linux_i686", "linux_x86_64"
       ]
     },
-    "description": "iCESugar board programmer"
+    "description": "apio package for iCESugar board programmer"
   }
 
 }
