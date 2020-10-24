@@ -162,7 +162,7 @@
   "icesprog" : {
     "repository": {
       "name": "toolchain-icesprog",
-      "organization": "aalku"
+      "organization": "FPGAwars"
     },
     "release": {
       "tag_name": "v%V",
